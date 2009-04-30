@@ -1,11 +1,11 @@
 ==Installation==
-Once you have found a host and set up an account, the first thing you'll want to do is create an SQL Database. Both 4.1 and 5 work just fine, so if your host doesn't support MySQL 5 that isn't a problem.
+Once you have found a host and set up an account, the first thing you'll want to do is create an SQL Database. Both 4.1 and 5 work just fine, so if your host doesn't support MySQL 5 that isn't a problem.<br>
 
-Now, upload all the files to your host. An easy, free way to do this is to use net2ftp.com as it allows you to upload the .zip file which it will expand for you.
+Now, upload all the files to your host. An easy, free way to do this is to use net2ftp.com as it allows you to upload the .zip file which it will expand for you.<br>
 
-Once you have all of the files uploaded, you need to edit the config.php file. First, run the phpinfo.php file that should be in the root directory. Search for the field that says "SCRIPT_FILENAME". Copy everything in front of phpinfo.php, as you will need this for the config.php file
+Once you have all of the files uploaded, you need to edit the config.php file. First, run the phpinfo.php file that should be in the root directory. Search for the field that says "SCRIPT_FILENAME". Copy everything in front of phpinfo.php, as you will need this for the config.php file<br>
 
-Using your favorite editing program (net2ftp has one built in, Dreamweaver and Komodo IDE are also very good) open up the config.php file. The first thing you need to do is edit the SQL database entries. To find the database hostname, go to the site your host gives you for editing the database. This is usually called PhpMyAdmin?. In big numbers it will tell you your database's server (usually 10.something for online hosts, localhost if you are setting Hydrogen up on your home PC). After you enter the hostname, enter the database name and the database username. Usually, these are the same thing, but they may not be. Then, enter the password.
+Using your favorite editing program (net2ftp has one built in, Dreamweaver and Komodo IDE are also very good) open up the config.php file. The first thing you need to do is edit the SQL database entries. To find the database hostname, go to the site your host gives you for editing the database. This is usually called PhpMyAdmin. In big numbers it will tell you your database's server (usually 10.something for online hosts, localhost if you are setting Hydrogen up on your home PC). After you enter the hostname, enter the database name and the database username. Usually, these are the same thing, but they may not be. Then, enter the password.
 
 Next you'll need to enter the root directory. This is where the phpinfo.php program comes in. The part you copied should look like this:
 /home/content/j/x/c/jxceldolghmq/html/phpinfo.php
@@ -14,8 +14,8 @@ Name and Slogan should be self-explanitory.
 The next section is things I have programmed into Hydrogen. The header and footer ads are up to you, you can change them to your own ads or remove them altogether. Simply copy + paste the code the ad company gives you over the code I have there. The disclaimer is ripped directly from 4chan, you can change it to whatever you want or get rid of it altogether. After that is the analytics scripts. I couldn't get the new google script to work without making it difficult to configure so urchin.js is the only one working for now.
 
 The next section is commented well, so I'll be brief.
-KU_WEBFOLDER: The path from the domain that Hydrogen is in. If your imageboard was www.examplechan.org/hydrogen/ your KU_WEBFOLDER would be /hydrogen/
-KU_WEBPATH: The full adress of Hydrogen. Using the above example, the KU_WEBPATH would be http://www.examplechan.org/hydrogen
-KU_DOMAIN: Using the above example, the KU_DOMAIN would be .examplechan.org
+KU_WEBFOLDER: The path from the domain that Hydrogen is in. If your imageboard was www.examplechan.org/hydrogen/ your KU_WEBFOLDER would be /hydrogen/<br>
+KU_WEBPATH: The full adress of Hydrogen. Using the above example, the KU_WEBPATH would be http://www.examplechan.org/hydrogen<br>
+KU_DOMAIN: Using the above example, the KU_DOMAIN would be .examplechan.org<br><br>
 
 This should be the end of configuring. Next, you are going to run the mysql installer script. Copy everything from the INSTALLER folder into the root directory and run install-mysql.php (www.examplechan.org/hydrogen/install-mysql.php). After that installs successfully, remove install-mysql.php from the root directory and run install.php. Once that is done, congratulate yourself because you now have a functioning chan! 
