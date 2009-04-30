@@ -1,3 +1,4 @@
+#labels Featured,Phase-Deploy
 ==Installation==
 Once you have found a host and set up an account, the first thing you'll want to do is create an SQL Database. Both 4.1 and 5 work just fine, so if your host doesn't support MySQL 5 that isn't a problem.<br>
 
