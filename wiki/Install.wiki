@@ -19,4 +19,4 @@ KU_WEBFOLDER: The path from the domain that Hydrogen is in. If your imageboard w
 KU_WEBPATH: The full adress of Hydrogen. Using the above example, the KU_WEBPATH would be http://www.examplechan.org/hydrogen<br>
 KU_DOMAIN: Using the above example, the KU_DOMAIN would be .examplechan.org<br><br>
 
-This should be the end of configuring. Next, you are going to run the mysql installer script. Copy everything from the INSTALLER folder into the root directory and run install-mysql.php (www.examplechan.org/hydrogen/install-mysql.php). After that installs successfully, remove install-mysql.php from the root directory and run install.php. Once that is done, congratulate yourself because you now have a functioning chan! 
+This should be the end of configuring. Next, you are going to run the mysql installer script. Copy everything from the INSTALLER folder into the root directory and run install-mysql.php (www.examplechan.org/hydrogen/install-mysql.php). After that installs successfully, remove install-mysql.php from the root directory and run install.php. Once that is done, congratulate yourself because you now have a functioning chan!
